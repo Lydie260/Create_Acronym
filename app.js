@@ -2,10 +2,11 @@ import bodyParser from 'body-parser';
 import express from 'express';
 import "dotenv/config";
 import mongoose from "mongoose";
+import routes from "./src/Routes"
 
 const app = express();
 app.use(bodyParser.json());
-
+app.use('/',routes)
 
 const dbUrl = process.env.DATABASE_URL;
 mongoose
