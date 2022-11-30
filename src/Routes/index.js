@@ -1,5 +1,8 @@
-import  express  from "express";
+import { Router } from 'express';
+import acronymRouter from "./acronymRoute";
 
+const router = Router();
 
-const app = express();
+router.use('/acronym', acronymRouter);
 
+export default router;
