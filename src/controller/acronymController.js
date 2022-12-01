@@ -1,4 +1,4 @@
-import acronomyModel from "../model/acronomy";
+import acronomyModel from "../model/acronym";
 import handleCrud from "../Utilis/handleCrud";
 
 
