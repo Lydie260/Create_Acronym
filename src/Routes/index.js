@@ -1,8 +1,8 @@
-import { Router } from 'express';
-import acronymRouter from "./acronymRoute";
+// import { Router } from 'express';
+// import acronymRouter from "./acronymRoute";
 
-const router = Router();
+// const router = Router();
 
-router.use('/acronym', acronymRouter);
+// router.use('/acronym', acronymRouter);
 
-export default router;
+// export default router;

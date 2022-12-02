@@ -10,8 +10,7 @@ const acronymSchema = new mongoose.Schema(
         ,
         Description:{
             type: String,
-            unique: true,
-            required: true
+         
         
         },
 
